@@ -1,0 +1,9 @@
+- 가상환경 생성
+python -m venv 가상환경이름
+ex) python -m venv venv  또 python -m venv .venv
+
+- 권한 문제로 실행되지 않을 시,
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+- 가상환경 활성화
+.\venv\Scripts\Activate
